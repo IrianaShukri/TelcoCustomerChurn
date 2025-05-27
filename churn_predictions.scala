@@ -3,7 +3,6 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.ml.feature.{StringIndexer, VectorAssembler}
 import org.apache.spark.ml.classification.RandomForestClassifier
-import org.apache.spark.ml.feature.ChiSqSelector
 import org.apache.spark.ml.Pipeline
 import org.apache.spark.ml.linalg.Vector
 import org.apache.spark.sql.functions.udf
